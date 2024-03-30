@@ -53,9 +53,9 @@ player = {"Last Name":["Bacot", "Davis", 'Ryan'],
 data = pd. DataFrame (player)
 
 # bmi = weight in kg/ height in meters squared
-data['bmi_example'] = (data['weight']/2.205)/((data['height']/39.37)**2)
-data['bmi_example'] = data['bmi'].round(2)
+data['bmi_video'] = (data['weight']/2.205)/((data['height']/39.37)**2)
+data['bmi_video'] = data['bmi'].round(2)
 
 print (data)
 
-data.to_csv('bmi_example.csv')
+data.to_csv('bmi_video.csv')
