@@ -1,4 +1,4 @@
-# 7 Official 2023-24 UNC Basketball Roster
+# Official 2023-24 UNC Basketball Roster
 
 import pandas as pd
 
@@ -22,11 +22,11 @@ player = {
 data = pd.DataFrame(player)
 
 # Calculate BMI
-data['bmi'] = (data['weight'] / 2.205) / (data['height'] ** 2)
-data['bmi'] = data['bmi'].round(2)
+data['bmi_example'] = (data['weight'] / 2.205) / (data['height'] ** 2)
+data['bmi_example'] = data['bmi_example'].round(2)
 
 print(data)
 
 # Save to CSV
-data.to_csv('bmi.csv', index=False)
+data.to_csv('bmi_example.csv', index=False)
 
