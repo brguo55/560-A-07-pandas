@@ -6,7 +6,6 @@ roster = ['Bacot', 'Davis', 'Ryan']
 data = pd.DataFrame(roster)
 print(data)
 
-
 '''
 roster = ['Bacot', 'Davis', 'Ryan']
 for player in roster:
@@ -55,6 +54,7 @@ data = pd. DataFrame (player)
 
 # bmi = weight in kg/ height in meters squared
 data['bmi'] = (data['weight']/2.205)/((data['height']/39.37)**2)
+data['bmi'] = data['bmi'].round(2)
 
 print (data)
 
