@@ -5,9 +5,11 @@ roster = ['High', 'Cadeau', 'Ryan', 'Davis', 'Bacot', 'Trimble', 'Wojcik', 'Wash
 print(roster)
 
 # Step two: Modify the program to print out a for loop
+roster = ['High', 'Cadeau', 'Ryan', 'Davis', 'Bacot', 'Trimble', 'Wojcik', 'Washington', 'Lebo', 'Landry', 'Okonkwo', 'Farris', 'Ingram']
+for name in roster:
+    print(name)
 
-
-
+# Step three:  Import Pandas as pd and create a DataFrame data = pdDataFrame(roster) and print(data).
 
 
 
