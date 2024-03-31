@@ -1,6 +1,24 @@
 # 2023-24 UNC Basketball Roster
 
-import pandas as pd
+# Step one: create the file and write a list program.
+roster = ['High', 'Cadeau', 'Ryan', 'Davis', 'Bacot', 'Trimble', 'Wojcik', 'Washington', 'Lebo', 'Landry', 'Okonkwo', 'Farris', 'Ingram']
+print(roster)
+
+# Step two: Modify the program to print out a for loop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def feet_to_meters(feet, inches):
     meters = (feet * 12 + inches) * 0.0254
@@ -22,11 +40,10 @@ player = {
 data = pd.DataFrame(player)
 
 # Calculate BMI
-data['bmi_example'] = (data['weight'] / 2.205) / (data['height'] ** 2)
-data['bmi_example'] = data['bmi_example'].round(2)
+data['bmi='] = (data['weight'] / 2.205) / (data['height'] ** 2)
+data['bmi'] = data['bmi'].round(2)
 
 print(data)
 
 # Save to CSV
-data.to_csv('bmi_example.csv', index=False)
-
+data.to_csv('bmi.csv', index=False)
