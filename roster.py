@@ -35,8 +35,7 @@ def feet_to_meters(feet, inches):
     return round(meters, 4)
 
 # Assuming that the 'height' list is meant to be feet and inches,
-# e.g., 6.9 should be interpreted as 6 feet 9 inches, not 6.9 feet.
-# If 6.11 is 6 feet 11 inches, and 6.10 is 6 feet 10 inches.
+# 6.11 is 6 feet 11 inches, and 6.10 is 6 feet 10 inches.
 heights_in_feet = [6.9, 6.1, 6.5, 6.0, 6.11, 6.3, 6.5, 6.10, 6.1, 6.4, 6.8, 6.7, 6.7]
 heights_in_meters = [feet_to_meters(int(h), (h*10 % 10)*12 if '.10' in str(h) else (h % 1)*10) for h in heights_in_feet]
 
