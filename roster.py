@@ -1,6 +1,6 @@
 # 2023-24 UNC Basketball Roster
 
-# Step one: create the file and write a list program.
+# Step one: create the file and write a list program
 roster = ['High', 'Cadeau', 'Ryan', 'Davis', 'Bacot', 'Trimble', 'Wojcik', 'Washington', 'Lebo', 'Landry', 'Okonkwo', 'Farris', 'Ingram']
 print(roster)
 
@@ -9,13 +9,15 @@ roster = ['High', 'Cadeau', 'Ryan', 'Davis', 'Bacot', 'Trimble', 'Wojcik', 'Wash
 for name in roster:
     print(name)
 
-# Step three:  Import Pandas as pd and create a DataFrame data = pdDataFrame(roster) and print(data).
+# Step three:  Import Pandas as pd and create a DataFrame data = pdDataFrame(roster) and print(data)
 import pandas as pd
+
 roster = ['High', 'Cadeau', 'Ryan', 'Davis', 'Bacot', 'Trimble', 'Wojcik', 'Washington', 'Lebo', 'Landry', 'Okonkwo', 'Farris', 'Ingram']
 data = pd.DataFrame(roster)
 print(data)
 
-# Step four: Import Pandas as pd and create a DataFrame and print data.
+
+# Step five: Official 2023-24 UNC Basketball Roster
 
 import pandas as pd
 
