@@ -14,6 +14,15 @@ import pandas as pd
 
 roster = ['High', 'Cadeau', 'Ryan', 'Davis', 'Bacot', 'Trimble', 'Wojcik', 'Washington', 'Lebo', 'Landry', 'Okonkwo', 'Farris', 'Ingram']
 data = pd.DataFrame(roster)
+
+print(data)
+
+# Step four: Import Pandas as pd and create a DataFrame and print data
+import pandas as pd
+
+roster = ['High', 'Cadeau', 'Ryan', 'Davis', 'Bacot', 'Trimble', 'Wojcik', 'Washington', 'Lebo', 'Landry', 'Okonkwo', 'Farris', 'Ingram']
+data = pd.DataFrame(roster, columns=['Last Name'])
+
 print(data)
 
 
@@ -41,7 +50,7 @@ player = {
 data = pd.DataFrame(player)
 
 # Calculate BMI
-data['bmi='] = (data['weight'] / 2.205) / (data['height'] ** 2)
+data['bmi'] = (data['weight'] / 2.205) / (data['height'] ** 2)
 data['bmi'] = data['bmi'].round(2)
 
 print(data)
