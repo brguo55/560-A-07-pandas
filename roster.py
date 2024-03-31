@@ -10,17 +10,14 @@ for name in roster:
     print(name)
 
 # Step three:  Import Pandas as pd and create a DataFrame data = pdDataFrame(roster) and print(data).
+import pandas as pd
+roster = ['High', 'Cadeau', 'Ryan', 'Davis', 'Bacot', 'Trimble', 'Wojcik', 'Washington', 'Lebo', 'Landry', 'Okonkwo', 'Farris', 'Ingram']
+data = pd.DataFrame(roster)
+print(data)
 
+# Step four: Import Pandas as pd and create a DataFrame and print data.
 
-
-
-
-
-
-
-
-
-
+import pandas as pd
 
 def feet_to_meters(feet, inches):
     meters = (feet * 12 + inches) * 0.0254
